@@ -1,6 +1,6 @@
 # baiduocrtools
 baidu ocr api tools 
-
+百度 ocr 文字识别接口调试工具
 ~~[参考教程 [只要10分钟 快速掌握文字识别 教程]](https://ai.baidu.com/forum/topic/show/867951)~~
 
 
