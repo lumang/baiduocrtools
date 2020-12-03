@@ -47,6 +47,7 @@
             this.btnclear = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_about = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -177,7 +178,7 @@
             // 
             // btnclear
             // 
-            this.btnclear.Location = new System.Drawing.Point(580, 313);
+            this.btnclear.Location = new System.Drawing.Point(570, 312);
             this.btnclear.Name = "btnclear";
             this.btnclear.Size = new System.Drawing.Size(75, 23);
             this.btnclear.TabIndex = 14;
@@ -201,11 +202,22 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 16);
             // 
+            // btn_about
+            // 
+            this.btn_about.Location = new System.Drawing.Point(674, 312);
+            this.btn_about.Name = "btn_about";
+            this.btn_about.Size = new System.Drawing.Size(75, 23);
+            this.btn_about.TabIndex = 16;
+            this.btn_about.Text = "关于";
+            this.btn_about.UseVisualStyleBackColor = true;
+            this.btn_about.Click += new System.EventHandler(this.btn_about_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(756, 415);
+            this.Controls.Add(this.btn_about);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnclear);
             this.Controls.Add(this.label6);
@@ -255,6 +267,7 @@
         private System.Windows.Forms.Button btnclear;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.Button btn_about;
     }
 }
 

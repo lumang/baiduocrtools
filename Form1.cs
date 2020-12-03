@@ -203,6 +203,12 @@ namespace BD文字识别工具
             richTextBox1.Clear();
             MessageBox.Show("清空成功");
         }
+
+        private void btn_about_Click(object sender, EventArgs e)
+        {
+            Form f2 = new Form2();
+            f2.ShowDialog();
+        }
     }
     
 }

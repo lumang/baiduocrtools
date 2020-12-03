@@ -25,3 +25,15 @@ postman 软件非开发人员显得有点复杂，难懂，不好操作
 #### 2.2 点击加载图片按钮
 #### 2.3 点击开始识别按钮
 #### 2.4 点击复制结果按钮
+
+# 编译问题
+找不到json 解析库 和OCR 库
+![](./screenshot/编译报错.png)
+
+json 解析库下载地址
+
+[NewtonSoft.Json](https://github.com/JamesNK/Newtonsoft.Json/releases)
+
+OCR 库下载
+
+[Baidu](http://ai.baidu.com/download?sdkId=15)
